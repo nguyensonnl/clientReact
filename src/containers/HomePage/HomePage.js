@@ -9,6 +9,8 @@ import './HomePage.scss';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import About from './Section/About';
+import HomeFooter from './HomeFooter';
 
 
 class HomePage extends Component {
@@ -27,7 +29,8 @@ class HomePage extends Component {
                 <MedicalFacilty settings={settings} />
                 <OutstandingDoctor settings={settings} />
                 <Handbook settings={settings} />
-                <div style={{ height: '500px' }}></div>
+                <About />
+                <HomeFooter />
             </div>
         )
 

@@ -44,6 +44,38 @@
          background: #f5f5f5;
      }
 
+     &.section-about {
+         background: #f5f5f5;
+         height: 500px !important;
+         padding: 0 100px;
+
+         .section-about-header {
+             padding: 20px 0;
+             font-size: 22px;
+             font-weight: 600;
+         }
+
+         .section-about-content {
+             display: flex;
+             gap: 15px; //Khoảng cách 2 div
+             width: 100%;
+
+             .content-left {
+                 width: 60%;
+             }
+
+             .content-right {
+                 width: 40%;
+
+                 p {
+                     text-align: justify;
+                     font-style: italic;
+                     padding-top: 15px;
+                 }
+             }
+         }
+     }
+
      height: 330px;
 
      .section-container {
@@ -81,6 +113,11 @@
 
          .section-body {
              .section-customize {
+
+                 &.section-handbook {
+                     display: flex !important;
+                 }
+
                  .bg-image {
                      width: 278px;
                      height: 150px;

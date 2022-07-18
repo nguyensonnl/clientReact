@@ -17,19 +17,19 @@ class Handbook extends Component {
                     </div>
                     <div className='section-body'>
                         <Slider {...settings}>
-                            <div className='section-customize'>
+                            <div className='section-customize section-handbook'>
                                 <div className='bg-image section-handbook'></div>
-                                <span>Bệnh viện hữu nghị Việt Đức1</span>
+                                <div>Bệnh viện hữu nghị Việt Đức1</div>
                             </div>
-                            <div className='section-customize'>
+                            <div className='section-customize section-handbook'>
                                 <div className='bg-image section-handbook'></div>
                                 <div>Bệnh viện hữu nghị Việt Đức2</div>
                             </div>
-                            <div className='section-customize'>
+                            <div className='section-customize section-handbook'>
                                 <div className='bg-image section-handbook'></div>
                                 <div>Bệnh viện hữu nghị Việt Đức3</div>
                             </div>
-                            <div className='section-customize'>
+                            <div className='section-customize section-handbook'>
                                 <div className='bg-image section-handbook'></div>
                                 <div>Bệnh viện hữu nghị Việt Đức4</div>
                             </div>
