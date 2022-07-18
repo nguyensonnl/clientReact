@@ -1,0 +1,239 @@
+.home-header-container {
+    height: 75px;
+    //border: 1px solid red;
+    width: 100%;
+    padding: 0 20px;
+
+    .home-header-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .left-content {
+            width: 25%;
+            // border: 1px solid green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            i {
+                font-size: 25px;
+                color: gray;
+                padding-left: 5px;
+                cursor: pointer;
+            }
+
+            .header-logo {
+                background: url('../../assets/logo.svg') center center no-repeat;
+                height: 100%;
+                width: 100%;
+                background-size: 50%;
+                cursor: pointer;
+                margin-left: -75px;
+            }
+
+
+        }
+
+        .center-content {
+            width: 50%;
+            // border: 1px solid orange;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+
+            .child-content {
+                .subs-title {
+                    font-weight: 400;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .right-content {
+            width: 25%;
+            // border: 1px solid gray;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            .support {
+                padding-right: 50px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                i {
+                    font-size: 15px;
+                    margin-right: 5px;
+                }
+            }
+
+            .language-vi {
+                cursor: pointer;
+                opacity: 0.2;
+
+                &:hover {
+                    opacity: 1;
+                }
+
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: orange;
+                    }
+
+                }
+            }
+
+            .language-en {
+                margin: 0 10px;
+                cursor: pointer;
+                opacity: 0.2;
+
+                &:hover {
+                    opacity: 1;
+                }
+
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: blue;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.home-header-banner {
+
+    background-image: url('../../assets/header-background.jpg');
+    height: 485px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+    .content-up {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+        height: 65%;
+        padding-top: 15px;
+
+
+        .title1 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            margin-bottom: 5px;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .title2 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .search {
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 25px;
+            background-color: #f7d800;
+
+            i {
+                margin: 0 5px;
+            }
+
+            input {
+                height: 30px;
+                width: 360px;
+                background: transparent;
+                outline: none;
+                border: none;
+            }
+        }
+    }
+
+    .content-down {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+        height: 35%;
+        //border: 1px solid green;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding-bottom: 10px;
+
+        .options {
+
+            text-align: center;
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+
+            .option-child {
+                width: 100px;
+                //border: 1px solid red;
+
+                .icon1 {
+                    background-color: white;
+                    border-radius: 50%;
+                    background-image: url('../../assets/khamchuyenkhoa.png');
+                    width: 50px;
+                    height: 50px;
+                    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+                    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+                    margin: 2px auto;
+                    background-size: 32px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    cursor: pointer;
+                }
+
+                // .icon2 {
+                //     background-color: white;
+                //     border-radius: 50%;
+                //     background-image: url('../../assets/khamtuxa.png');
+                //     width: 50px;
+                //     height: 50px;
+                //     -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+                //     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+                //     margin: 2px auto;
+                //     background-size: 32px;
+                //     background-repeat: no-repeat;
+                //     background-position: center;
+                //     cursor: pointer;
+                // }
+
+                .text-child {
+                    font-size: 17px;
+                    font-weight: 500;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #45c3d2;
+                        ;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+}
